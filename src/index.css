@@ -1,13 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700;900&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  font-family: "Product Sans", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  color: #fff;
+  background-color: #181818;
+}
+
+.home {
+  color: #fff;
+  background-color: #181818;
+}
+
+.watch--x {
+  overflow-y: auto;
+}
+
+.bg-gray {
+  background-color: gray !important;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  font-weight: 500;
+  src: local("Product Sans"),
+    url(./fonts/Product\ Sans\ Regular.ttf) format("truetype");
 }
